@@ -1,0 +1,94 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0%;
+  margin: 0%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(photobg.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.intro {
+  width: 50%;
+}
+.intro > h1 {
+  color: antiquewhite;
+  font-size: 40px;
+}
+p {
+  color: antiquewhite;
+  font-size: 19px;
+  font-family:'Times New Roman', Times, serif;
+}
+.img1 {
+  height: 1000px;
+  width: 50%;
+  padding-top: 120px;
+  padding-left: 120px;
+  padding-bottom: 10px;
+}
+h2 {
+  color: aliceblue;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.prob {
+  width: 65%;
+  padding-top: 50px;
+}
+
+.main2 {
+  display: flex;
+  margin-top: -200px;
+  flex-direction: row;
+  border-top: 5px solid white;
+  justify-content: center;
+}
+.img2 {
+  width: 40%;
+  padding-top: 90px;
+  display: flex;
+  justify-content: center;
+  padding-right: 25px;
+}
+.main3 {
+  /* display: flex; */
+  border-top: 5px solid rgb(245, 242, 238);
+  margin-top: 50px;
+}
+.agro {
+  padding-top: 40px;
+}
+.img4 {
+  padding-left: 700px;
+  margin-top: -400px;
+}
+.img3 {
+  padding-left: 100px;
+  margin-top: 60px;
+}
+.main4 {
+  border-top: 5px solid white;
+  margin-top: 100px;
+}
+.modern {
+  padding-top: 40px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  clear: both;
+}
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

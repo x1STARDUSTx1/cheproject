@@ -1,0 +1,175 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+}
+.main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(landscape.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.navbar li {
+  float: left;
+  list-style: none;
+  margin: 0px 35px;
+  padding-left: 10px;
+}
+.navbar li a {
+  color: rgb(247, 247, 248);
+  text-decoration: none;
+}
+.navbar li a:hover {
+  color: rgb(212, 124, 17);
+}
+.tree2 {
+  width: 50px;
+  padding-top: 10px;
+}
+.food {
+  display: flex;
+  flex-direction: row;
+  margin-top: 280px;
+}
+.foodresources {
+  width: 50%;
+}
+.cards {
+  /* width: 50%;  */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: -150px;
+  margin-left: 30px;
+}
+.foodresources > h1 {
+  font-size: 65px;
+  color: aliceblue;
+}
+.foodresources > p {
+  color: aliceblue;
+  margin-top: -40px;
+  font-size: 15px;
+  margin-left: 5px;
+}
+.card {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 0px 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+
+.button {
+  border-radius: 15px;
+  /* padding: 10px; */
+  background-color: aliceblue;
+  color: black;
+  padding: 1.5vh 15px;
+}
+.card p {
+  text-shadow: 0 0 10px #999;
+  font-size: 12px;
+  color: aliceblue;
+  margin-top: -20px;
+}
+h5 {
+  margin-top: 1vh;
+  color: white;
+  text-shadow: 0 0 5px #999;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.main2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(vegetables-set-left-black-slate_1220-685.png);
+  background-position: center;
+  background-size: cover;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-attachment: fixed;
+}
+.production {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+.foodproduction {
+  margin-top: 280px;
+  width: 60%;
+}
+.foodproduction > h1{
+  font-size: 65px;
+  color: aliceblue;
+  margin-left: 100px;
+
+}
+.foodproduction > p{
+  color: aliceblue;
+  margin-top: -40px;
+  font-size: 15px;
+  margin-left: 100px;
+}
+.cards1 {
+  /* width: 50%;  */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 300px;
+  margin-left: 30px;
+  
+}
+.card1{
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 0px 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: -60px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+
+}
+.button1{
+  /* padding-left: 100px; */
+  border-radius: 15px;
+  /* padding: 10px; */
+  background-color: aliceblue;
+  color: black;
+  padding: 1.5vh 15px;
+  margin-left: 100px;
+}
+.card1:hover{
+  transform: translateY(-10px);
+}
+.card1 > p{
+  text-shadow: 0 0 10px #999;
+  font-size: 12px;
+  color: aliceblue;
+  margin-top: -20px;
+}
