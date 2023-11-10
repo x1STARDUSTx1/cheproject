@@ -11,6 +11,9 @@
     function openHref(href) {
       window.location.href = `cheproject/${href}`;
     }
+    function anchor(href) {
+      window.location.href = href;
+    }
   </script>
 
   <body>
@@ -35,7 +38,7 @@
             resources sustainably is essential for global food security and
             environmental preservation.
           </p>
-          <button class="button" onclick="openHref('/project#explore')">EXPLORE</button>
+          <button class="button" onclick="anchor('#explore')">EXPLORE</button>
         </div>
         <div class="cards">
           <div
